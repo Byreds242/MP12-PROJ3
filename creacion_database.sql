@@ -16,4 +16,8 @@ CREATE TABLE IF NOT EXISTS productos (
     precio DECIMAL(10, 2) NOT NULL
 );
 
+USE e_commerce;
+
+INSERT INTO productos (imagen, nombre, precio) 
+VALUES ('ruta/de/la/imagen.jpg', 'Nombre del Producto', 19.99);
 
