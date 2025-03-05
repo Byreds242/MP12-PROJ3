@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="user-name">
+            <span id="username">Invitado</span>
+        </div>
+        <div class="title">
+            <h4>The Minimalist</h4>
+        </div>
+        <div class="cart-icon">
+            <a href="cart.html" title="Ver carrito de compras">
+                <img src="../assets/images/carrito.png" alt="Carrito de compras">
+            </a>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="body">
+        <!-- Título del Carrito -->
+        <div class="cart-title">
+            <h1>Carrito de Compras</h1>
+        </div>
+
+        <!-- Lista de Productos -->
+        <div class="cart-items">
+            <!-- Producto 1 -->
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="../assets/images/beats-headphone.jpg" alt="Beats Headphone">
+                </div>
+                <div class="item-details">
+                    <div class="item-name">BEATS HEADPHONE</div>
+                    <div class="item-price">$12.95</div>
+                </div>
+                <div class="item-actions">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <button class="delete-btn">Eliminar</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="../assets/images/iphone-x.jpg" alt="iPhone X">
+                </div>
+                <div class="item-details">
+                    <div class="item-name">IPHONE X</div>
+                    <div class="item-price">$1200.95</div>
+                </div>
+                <div class="item-actions">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn">-</button>
+                        <span class="quantity">2</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <button class="delete-btn">Eliminar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resumen del Carrito -->
+        <div class="cart-summary">
+            <h2>Resumen del Carrito</h2>
+            <div class="summary-item">
+                <span>Subtotal:</span>
+                <span>$1213.90</span>
+            </div>
+            <div class="summary-item">
+                <span>IVA (21%):</span>
+                <span>$254.92</span>
+            </div>
+            <div class="summary-item total">
+                <span>Total:</span>
+                <span>$1468.82</span>
+            </div>
+            <!-- Botón "Continuar Comprando" con enlace a index.html -->
+            <a href="index.html">
+                <button class="checkout-button">Continuar Comprando</button>
+            </a>
+            <!-- Botón "Proceder al Pago" -->
+            <button class="checkout-button">Proceder al Pago</button>
+        </div>
+        <!-- Botón gris añadido aquí -->
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 - Todos los derechos reservados. Desarrollado por <strong>Sebas</strong> y
+                <strong>Ethan</strong>.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
