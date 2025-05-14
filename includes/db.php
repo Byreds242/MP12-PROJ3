@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "bender10";
+$password = "";
 $dbname = "e-commerce";
 
 // Crear conexión
