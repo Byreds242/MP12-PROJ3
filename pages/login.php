@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($contraseña, $row['contraseña'])) {
             // Iniciar sesión
             session_start();
-            $_SESSION['usuario'] = $row['usuario'];
+         //   $_SESSION['usuario'] = $row['usuario'];
             echo "Login exitoso. Bienvenido, " . htmlspecialchars($row['usuario']) . "!";
         } else {
             echo "Contraseña incorrecta.";
